@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border: 5px solid tomato;
+  position: relative;
+  width: 800px;
+  height: 700px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.studentInfo {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+#firstName {
+  height: 40px;
+  border: 2px solid rgb(135, 138, 155);
+  outline: none;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: large;
+}
+
+#firstName:hover {
+  border: 2px solid tomato;
+}
+
+#lastName {
+  height: 40px;
+  border: 2px solid rgb(135, 138, 155);
+  outline: none;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: large;
+}
+
+#lastName:hover {
+  border: 2px solid tomato;
+}
+
+#studentId {
+  height: 40px;
+  border: 2px solid rgb(135, 138, 155);
+  outline: none;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: large;
+}
+
+#studentId:hover {
+  border: 2px solid tomato;
+}
+
+#btnSubmit {
+  height: 50px;
+  width: 120px;
+  margin-top: 20px;
+  border: 2px solid tomato;
+  border-radius: 5px;
+  background: none;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#btnSubmit:hover {
+  background: tomato;
+  color: #fff;
+}
+
+.table {
+  border: 2px solid tomato;
+  border-radius: 5px;
+  height: 200px;
+  margin-top: 20px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background: tomato;
+  color: #fff;
+  text-align: center;
+  height: 40px;
+}
+
+td {
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 30px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+  

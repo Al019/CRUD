@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CRUD</title>
+</head>
+<body>
+  
+  <div class="container">
+    <h1>CRUD</h1>
+    <div class="studentInfo">
+      <h3 style="margin-bottom: 0;">First Name</h3>
+      <input id="firstName" type="text">
+      <h3 style="margin-bottom: 0;">Last Name</h3>
+      <input id="lastName" type="text">
+      <h3 style="margin-bottom: 0;">Student ID</h3>
+      <input id="studentId" type="text">
+    <div>
+      <button id="btnSubmit" type="button" onclick="addRow()">Submit</button>
+    </div>
+    <div class="table">
+      <table id="studentTable">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Student ID</th>
+          <th style="width: 88px;">Action</th>
+        </tr>
+      </table>
+    </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
